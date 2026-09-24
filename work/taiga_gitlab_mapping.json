@@ -1,0 +1,24 @@
+{
+  "template_id": "INS-C2-029",
+  "gitlab_project_id": 2253,
+  "synced_at": "2026-07-10",
+  "mappings": [
+    {"gitlab_iid": 1, "taiga_id": 93517, "taiga_ref": 91370, "title": "[impl] Design docs/02_design.md"},
+    {"gitlab_iid": 2, "taiga_id": 93518, "taiga_ref": 91371, "title": "[impl] State schema src/schemas/state.py"},
+    {"gitlab_iid": 3, "taiga_id": 93519, "taiga_ref": 91372, "title": "[impl] Node: InputParse"},
+    {"gitlab_iid": 4, "taiga_id": 93520, "taiga_ref": 91373, "title": "[impl] Node: PiiShield"},
+    {"gitlab_iid": 5, "taiga_id": 93521, "taiga_ref": 91374, "title": "[impl] Node: InvestigationSynthesize"},
+    {"gitlab_iid": 6, "taiga_id": 93522, "taiga_ref": 91375, "title": "[impl] Node: CompletenessCheck"},
+    {"gitlab_iid": 7, "taiga_id": 93523, "taiga_ref": 91376, "title": "[impl] Node: FraudSurfaceFlag"},
+    {"gitlab_iid": 8, "taiga_id": 93524, "taiga_ref": 91377, "title": "[impl] Node: OutputValidate"},
+    {"gitlab_iid": 9, "taiga_id": 93525, "taiga_ref": 91378, "title": "[impl] Graph composition src/graph/graph.py"},
+    {"gitlab_iid": 10, "taiga_id": 93526, "taiga_ref": 91379, "title": "[impl] Test spec docs/03_test_spec.md"},
+    {"gitlab_iid": 11, "taiga_id": 93527, "taiga_ref": 91380, "title": "[impl] Tests unit"},
+    {"gitlab_iid": 12, "taiga_id": 93528, "taiga_ref": 91381, "title": "[impl] Tests integration"},
+    {"gitlab_iid": 13, "taiga_id": 93529, "taiga_ref": 91382, "title": "[impl] Operation guide docs/07_operation_guide.md"}
+  ],
+  "gitlab_assigned": 13,
+  "gitlab_skipped": 0,
+  "taiga_assigned": 13,
+  "taiga_skipped": 0
+}

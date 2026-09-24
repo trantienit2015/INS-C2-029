@@ -1,0 +1,19 @@
+# Agent Manifest - AgentRegistry static entry point.
+# Root-level keys only; `class` is a single dotted import path.
+# Runtime-tunable parameters live in config/config.yaml, not here.
+
+id: INS-C2-029
+name: Insurance Claim Investigation Report Summarization Agent
+namespace: ins
+version: 0.1.0
+enabled: true
+description: Insurance Claim Investigation Report Summarization Agent
+class: src.graph.graph.Graph
+category: Cat 2
+industry: INS
+base_type: DocGenerationAgent
+generation_mode: deterministic
+required_trust_level: INTERNAL
+requires:
+  secrets: []
+  extras: []
